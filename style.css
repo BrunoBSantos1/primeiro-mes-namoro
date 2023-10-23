@@ -28,7 +28,7 @@ header h1{
 }
 
 .linha-tempo_item {
-    width: 300px;
+    width: 250px;
     padding: 15px;
     text-align: center;
     border-radius: 50px;
@@ -57,9 +57,9 @@ header h1{
 }
 
 .historia_item {
-    width: 80%;
+    width: 90%;
     height: 300px;
-    background-color: aqua;
+    background-color: white;
     margin-top: 50px;
     border-radius: 70px;
     text-align: justify;
@@ -68,7 +68,12 @@ header h1{
 
 .historia_item h1 {
     text-align: center;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.historia_item p {
+    text-align: justify;
+    font-size: 20px;
 }
 
 .historia_resumo {
