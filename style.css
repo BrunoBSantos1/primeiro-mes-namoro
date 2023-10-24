@@ -93,6 +93,7 @@ header h1{
 }
 
 .historia_item p {
+    font-size: 20px;
     text-align: center;
     text-align: justify;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
