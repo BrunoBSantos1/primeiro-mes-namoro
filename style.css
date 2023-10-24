@@ -63,6 +63,7 @@ header h1{
 
 .linha-tempo_item span {
     font-size: 30px;
+    font-weight: 700;
 }
 
 .linha-tempo_item p {
@@ -88,6 +89,7 @@ header h1{
 }
 
 .historia_item h1 {
+    font-size: 30px;
     text-align: center;
     margin-bottom: 15px;
     font-weight: 700;
