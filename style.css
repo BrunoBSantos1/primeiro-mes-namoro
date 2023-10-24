@@ -13,6 +13,7 @@ body {
 .pagina-inicial {
     background-color: #FF1493;
     width: 100vw;
+    padding-bottom: 50px;
     border-bottom-left-radius: 180px;
     border-bottom-right-radius: 180px;
 }
@@ -61,13 +62,12 @@ header h1{
 }
 
 .linha-tempo_item span {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .linha-tempo_item p {
-    font-size: 40px;
     color: #ffff;
-    font-weight: bold
+    font-size: 20px;
 }
 
 .historia {
@@ -76,15 +76,10 @@ header h1{
     align-items: center;
     justify-content: center;
 }
-.historia p{
-    font-size: 30px;
-    font-weight: 700;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
 
 .historia_item {
-    width: 90%;
-    height: 300px;
+    width: 80%;
+    height: 200px;
     background-color: white;
     margin-top: 50px;
     border-radius: 70px;
@@ -94,13 +89,13 @@ header h1{
 
 .historia_item h1 {
     text-align: center;
-    font-size: 40px;
     margin-bottom: 15px;
 }
 
 .historia_item p {
+    text-align: center;
     text-align: justify;
-    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .historia_resumo {
@@ -117,7 +112,7 @@ header h1{
 
 .historia_resumo h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
