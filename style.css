@@ -12,7 +12,7 @@ body {
 }
 .pagina-inicial {
     background-color: #ca1375;
-    width: 100vw;
+    width: 100vh;
     border-bottom-left-radius: 180px;
     border-bottom-right-radius: 180px;
 }
