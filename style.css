@@ -11,8 +11,8 @@ body {
     background-position: center;
 }
 .pagina-inicial {
-    background-color: #ca1375;
-    width: 100vh;
+    background-color: #FF1493;
+    width: 100vw;
     border-bottom-left-radius: 180px;
     border-bottom-right-radius: 180px;
 }
@@ -38,9 +38,10 @@ header h1{
     color: red;
 }
 .video-responsive {
-    width: 100%;
+    width: 100vw;
     height: auto;
     max-width: 100%;
+    display: block;
     margin: 0 auto;
 }
 
@@ -65,7 +66,8 @@ header h1{
 
 .linha-tempo_item p {
     font-size: 40px;
-    color: white;
+    color: #ffff;
+    font-weight: bold
 }
 
 .historia {
@@ -93,7 +95,7 @@ header h1{
 .historia_item h1 {
     text-align: center;
     font-size: 40px;
-    font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .historia_item p {
@@ -120,9 +122,8 @@ header h1{
 }
 
 .historia_resumo p {
-    font-weight: 400;
     text-align: justify;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .mensagens {
