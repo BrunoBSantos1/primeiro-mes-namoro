@@ -138,6 +138,35 @@ header h1{
     font-size: 50px;
 }
 
+.rodape {
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.copyright span {
+    font-size: 25px;
+}
+
+.rodape_item {
+    min-width: 100px;
+}
+
+.rodape_item img {
+    width: 20px;
+}
+
+.rodape_item a {
+    text-decoration: none;
+    color: white;
+}
+
 
 @media (max-width: 768px) {
     .video-responsive {
