@@ -13,9 +13,14 @@ body {
 .pagina-inicial {
     background-color: #FF1493;
     width: 100vw;
-    padding-bottom: 100px;
+    padding-bottom: 0;
     border-bottom-left-radius: 180px;
     border-bottom-right-radius: 180px;
+}
+
+.pagina-inicial img {
+    border-bottom-right-radius: 90px;
+    margin-bottom: -2px;
 }
 
 .title_principal {
@@ -33,6 +38,7 @@ body {
     font-size: 40px;
     text-align: center;
     margin-top: 50px;
+    color: #fff;
 }
 
 header{
@@ -176,16 +182,22 @@ header h1{
     color: white;
 }
 
+.voce {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .sobre_nos { 
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
+    color: #ffff;
+    padding-right: 50px;
 }
 
-.sobre_nos_item img {
-    
-}
 
 
 @media (max-width: 768px) {
